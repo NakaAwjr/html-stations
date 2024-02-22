@@ -1,0 +1,48 @@
+.card{
+    color: #282828;
+    background-color: #ffffff;
+    padding: 5px;
+    margin: 5px;
+}
+.card__title{
+    font-size: 14px;
+}
+.card__description{
+    font-size: 12px;
+}
+.card img{
+    width: 288px;
+    height: 182px;
+    margin-bottom: 3px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header{
+    background-color: #ffffff;
+}
+body{
+    background-color: #c4c4c4;
+}
+footer{
+    background-color: #ffffff;
+}
+@media screen and (max-width: 768px){
+    .card__title{
+        font-size: 12px;
+    }
+    .card__description{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 320px){
+    .card__title{
+        font-size: 10px;
+    }
+    .card__description{
+        display: none;
+    }
+}
